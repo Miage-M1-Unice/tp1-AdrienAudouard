@@ -1,7 +1,6 @@
 package fr.miage.adrienaudouard.exercice1;
 
 import java.io.File;
-import java.util.Arrays;
 
 public class QuestionA {
     public static void main(String[] args) {
@@ -9,8 +8,14 @@ public class QuestionA {
         System.out.println("Question 1.a:");
         listerRepertoireCourant();
 
+        System.out.println("");
+
         System.out.println("Question 1.b:");
         parcoursEnProfondeur();
+
+        System.out.println("");
+
+        System.out.println("Question 1.c:");
     }
 
     private static void listerRepertoireCourant() {
@@ -24,10 +29,28 @@ public class QuestionA {
     }
 
     private static void parcoursEnProfondeur() {
-        File f = new File("");
+        File f = new File(".");
 
-        f.listFiles();
+        parcourir(f, "");
+    }
 
-        System.out.println();
+
+
+    private static void parcourir(File f, String prefix) {
+        File[] files = f.listFiles();
+
+        if (files == null) {
+            return;
+        }
+
+        for (File file : files) {
+            System.out.print(prefix);
+            System.out.print(file.isDirectory() ? " + " : " - ");
+            System.out.print(file.getName() + "\n");
+
+            if (file.isDirectory()) {
+                parcourir(file, prefix+"\t");
+            }
+        }
     }
 }
