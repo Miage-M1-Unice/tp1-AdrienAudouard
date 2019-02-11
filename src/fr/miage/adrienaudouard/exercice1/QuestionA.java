@@ -8,17 +8,17 @@ public class QuestionA {
 
         QuestionA questionA = new QuestionA();
 
-        System.out.println("Question 1.a:");
+        System.out.println("Question 1.a.1:");
         questionA.listerRepertoireCourant();
 
         System.out.println("");
 
-        System.out.println("Question 1.b:");
+        System.out.println("Question 1.a.2:");
         questionA.parcoursEnProfondeur();
 
         System.out.println("");
 
-        System.out.println("Question 1.c:");
+        System.out.println("Question 1.a.3:");
         System.out.println("Classe interne:");
         questionA.parcourirAvecFilter(new File("."), questionA.new InnerClassFileNameFilter(".java"));
         System.out.println("\nClasse anonyme:");
