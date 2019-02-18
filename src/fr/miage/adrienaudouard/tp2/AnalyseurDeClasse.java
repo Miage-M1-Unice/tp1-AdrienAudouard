@@ -10,6 +10,10 @@ package fr.miage.adrienaudouard.tp2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 
 public class AnalyseurDeClasse {
 
@@ -44,36 +48,72 @@ public class AnalyseurDeClasse {
      * Cette méthode affiche par ex "public class Toto extends Tata implements Titi, Tutu {"
      */
     public static void afficheEnTeteClasse(Class cl) {
+
         //  Affichage du modifier et du nom de la classe
         // CODE A ECRIRE
 
+        int modifiersValue = cl.getModifiers();
+        String modifiers = Modifier.toString(modifiersValue);
+
+        System.out.print(modifiers + " ");
+        System.out.print(cl.getName());
+
         // Récupération de la superclasse si elle existe (null si cl est le type Object)
-        // Class supercl = // CODE A ECRIRE
+        Class supercl = cl.getSuperclass(); // CODE A ECRIRE
 
-        // On ecrit le "extends " que si la superclasse est non nulle et
-        // différente de Object
-        // CODE A ECRIRE
+        if (supercl != null && supercl.getSuperclass() != null) {
+            System.out.print(" extends ");
+            System.out.print(supercl.getName());
+        }
 
-        // Affichage des interfaces que la classe implemente
-        // CODE A ECRIRE
+        Class[] interfaces = cl.getInterfaces();
 
-        // Enfin, l'accolade ouvrante !
+        if (interfaces.length != 0) {
+            System.out.print(" implements");
+            for (int i = 0; i < interfaces.length; i++) {
+                Class interf = interfaces[i];
+
+                System.out.print(" " + interf.getName());
+
+                if ((i + 1) != interfaces.length) {
+                    System.out.print(",");
+                }
+            }
+        }
+
         System.out.print(" {\n");
     }
 
     public static void afficheAttributs(Class cl) {
-        // CODE A ECRIRE
+        Field[] fields = cl.getDeclaredFields();
+
+        for (Field field : fields) {
+            field.setAccessible(true);
+            System.out.print("\t");
+            System.out.print(field.toString());
+            System.out.println(";");
+        }
     }
 
     public static void afficheConstructeurs(Class cl) {
-        // CODE A ECRIRE
-        System.out.println("{}");
+        Constructor[] constructors = cl.getConstructors();
 
+        for (Constructor constructor : constructors) {
+            System.out.print("\t");
+            System.out.print(constructor.toString());
+            System.out.println(";");
+        }
     }
 
     public static void afficheMethodes(Class cl) {
-        // CODE A ECRIRE
-        System.out.println("{}");
+        Method[] methods = cl.getMethods();
+
+        for (Method method : methods) {
+            System.out.print("\t");
+            System.out.print(method.toString());
+            System.out.println(";");
+        }
+
     }
 
 
