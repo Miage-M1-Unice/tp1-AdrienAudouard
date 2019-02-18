@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cabe353-b60d-47b7-aea2-baa3912995bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/QuestionA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/SeLit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/MyFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/MyFileFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/QuestionA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/QuestionB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/QuestionC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/QuestionA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/exercice2/QuestionA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/SeLit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/exercice2/SeLit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,48 +33,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/QuestionA.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/SeLit.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2098#2099#0" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="502">
+              <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -92,6 +70,8 @@
         <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionC.java" />
         <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionB.java" />
         <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/SeLit.java" />
+        <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/exercice2/SeLit.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -99,11 +79,15 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,41 +95,17 @@
               <item name="tp1-AdrienAudouard" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp1-AdrienAudouard" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tp1-AdrienAudouard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp1-AdrienAudouard" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1-AdrienAudouard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp1-AdrienAudouard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1-AdrienAudouard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp1-AdrienAudouard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adrienaudouard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1-AdrienAudouard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp1-AdrienAudouard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adrienaudouard" type="462c0819:PsiDirectoryNode" />
-              <item name="exercice1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549964716761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550498929298" />
     <property name="last.edited.regexp" value="aaa/src" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
@@ -173,11 +133,11 @@
       </method>
     </configuration>
     <configuration name="QuestionA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.exercice1.QuestionA" />
+      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.tp1.exercice1.QuestionA" />
       <module name="tp1-AdrienAudouard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.miage.adrienaudouard.exercice1.*" />
+          <option name="PATTERN" value="fr.miage.adrienaudouard.tp1.exercice1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +146,11 @@
       </method>
     </configuration>
     <configuration name="QuestionB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.exercice1.QuestionB" />
+      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.tp1.exercice1.QuestionB" />
       <module name="tp1-AdrienAudouard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.miage.adrienaudouard.exercice1.*" />
+          <option name="PATTERN" value="fr.miage.adrienaudouard.tp1.exercice1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +159,11 @@
       </method>
     </configuration>
     <configuration name="QuestionC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.exercice1.QuestionC" />
+      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.tp1.exercice1.QuestionC" />
       <module name="tp1-AdrienAudouard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.miage.adrienaudouard.exercice1.*" />
+          <option name="PATTERN" value="fr.miage.adrienaudouard.tp1.exercice1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +172,11 @@
       </method>
     </configuration>
     <configuration name="SeLit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.exercice2.SeLit" />
+      <option name="MAIN_CLASS_NAME" value="fr.miage.adrienaudouard.tp1.exercice2.SeLit" />
       <module name="tp1-AdrienAudouard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.miage.adrienaudouard.exercice2.*" />
+          <option name="PATTERN" value="fr.miage.adrienaudouard.tp1.exercice2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,18 +212,28 @@
       <option name="presentableId" value="Default" />
       <updated>1549894190689</updated>
       <workItem from="1549894197554" duration="6568000" />
-      <workItem from="1549962807849" duration="1848000" />
+      <workItem from="1549962807849" duration="2088000" />
+      <workItem from="1550498664679" duration="44000" />
+      <workItem from="1550498742649" duration="170000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout question 2">
+      <created>1549964738344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549964738344</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8416000" />
+    <option name="totallyTimeSpent" value="8870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38054362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -272,19 +242,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42771083" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42771083" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -301,21 +271,55 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout question 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout question 2" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-403">
           <caret line="1246" column="18" selection-start-line="1246" selection-start-column="18" selection-end-line="1246" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/MyFileFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -337,68 +341,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="101" column="26" selection-start-line="101" selection-end-line="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/QuestionA.java">
+    <entry file="file://$PROJECT_DIR$/Output.txt" />
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/exercice2/QuestionA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice1/QuestionB.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/exercice2/SeLit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="69">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Output.txt">
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/MyFileFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3450">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/exercice2/SeLit.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/QuestionA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/QuestionB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/QuestionC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
         </state>
       </provider>
     </entry>

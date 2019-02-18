@@ -1,4 +1,4 @@
-package fr.miage.adrienaudouard.exercice1;
+package fr.miage.adrienaudouard.tp1.exercice1;
 
 import java.io.File;
 import java.io.FilenameFilter;

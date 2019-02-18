@@ -1,4 +1,4 @@
-package fr.miage.adrienaudouard.exercice2;
+package fr.miage.adrienaudouard.tp1.exercice2;
 
 import java.io.*;
 import java.nio.file.FileVisitResult;
