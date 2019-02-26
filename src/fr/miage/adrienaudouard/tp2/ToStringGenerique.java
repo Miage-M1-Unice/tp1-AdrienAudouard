@@ -3,11 +3,13 @@ package fr.miage.adrienaudouard.tp2;
 import java.awt.*;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
+import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class ToStringGenerique {
     public String toStringGenerique(Object object, int profondeur) throws IllegalAccessException {
         if (profondeur == 0) {
-            return object + "";
+            return object.getClass().getName() + "@" + System.identityHashCode(object);
         }
 
         String toString = "";
@@ -19,6 +21,17 @@ public class ToStringGenerique {
         toString += "[";
 
         Field[] fields = cl.getDeclaredFields();
+
+        Class superclass = cl.getSuperclass();
+
+        while (superclass != null) {
+            Field[] superFields = superclass.getDeclaredFields();
+
+            fields = Stream.concat(Arrays.stream(fields), Arrays.stream(superFields)).toArray(Field[]::new);
+
+            superclass = superclass.getSuperclass();
+        }
+
 
         for (int i = 0; i < fields.length; i++) {
             Field field = fields[i];
@@ -69,7 +82,7 @@ public class ToStringGenerique {
         pol.getBounds();
 
         try {
-            System.out.println(new ToStringGenerique().toStringGenerique(pol, 2));
+            System.out.println(new ToStringGenerique().toStringGenerique(pol, 1));
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }

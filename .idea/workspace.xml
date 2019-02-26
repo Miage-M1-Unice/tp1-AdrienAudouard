@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cabe353-b60d-47b7-aea2-baa3912995bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/ToStringGenerique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp3/MyClassLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/MyFileFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionA$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionA$InnerClassFileNameFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionB$FilterListFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionB$ListFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionC$MyFileFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp1-AdrienAudouard/fr/miage/adrienaudouard/exercice1/QuestionC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/ToStringGenerique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/ToStringGenerique.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1531">
-              <caret line="124" selection-start-line="124" selection-end-line="141" selection-end-column="5" />
+            <state relative-caret-position="1760">
+              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +40,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/ToStringGenerique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp3/MyClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#692#698#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +72,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fields</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp1/exercice2/SeLit.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java" />
+        <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp3/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/ToStringGenerique.java" />
       </list>
     </option>
@@ -97,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,17 +136,23 @@
               <item name="adrienaudouard" type="462c0819:PsiDirectoryNode" />
               <item name="tp2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tp1-AdrienAudouard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp1-AdrienAudouard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="adrienaudouard" type="462c0819:PsiDirectoryNode" />
+              <item name="tp3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550519058520" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551174693820" />
     <property name="last.edited.regexp" value="aaa/src" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
@@ -245,7 +264,8 @@
       <workItem from="1549894197554" duration="6568000" />
       <workItem from="1549962807849" duration="2088000" />
       <workItem from="1550498664679" duration="44000" />
-      <workItem from="1550498742649" duration="7143000" />
+      <workItem from="1550498742649" duration="7502000" />
+      <workItem from="1551172365710" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout question 2">
       <created>1549964738344</created>
@@ -258,13 +278,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15843000" />
+    <option name="totallyTimeSpent" value="18096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38054362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18168813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,7 +371,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/ToStringGenerique.java</url>
-          <line>8</line>
+          <line>12</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -442,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
@@ -456,10 +469,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp3/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#692#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3486">
+          <caret line="229" column="18" selection-start-line="229" selection-start-column="18" selection-end-line="229" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/AnalyseurDeClasse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1531">
-          <caret line="124" selection-start-line="124" selection-end-line="141" selection-end-column="5" />
+        <state relative-caret-position="1760">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -468,15 +522,15 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="548" column="6" lean-forward="true" selection-start-line="548" selection-start-column="6" selection-end-line="548" selection-end-column="6" />
+        <state relative-caret-position="-2985">
+          <caret line="1527" column="32" selection-start-line="1527" selection-start-column="26" selection-end-line="1527" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/miage/adrienaudouard/tp2/ToStringGenerique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
