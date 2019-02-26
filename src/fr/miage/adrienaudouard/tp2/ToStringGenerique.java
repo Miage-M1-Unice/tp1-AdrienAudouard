@@ -3,8 +3,8 @@ package fr.miage.adrienaudouard.tp2;
 import java.awt.*;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class ToStringGenerique {
     public String toStringGenerique(Object object, int profondeur) throws IllegalAccessException {
@@ -20,21 +20,10 @@ public class ToStringGenerique {
 
         toString += "[";
 
-        Field[] fields = cl.getDeclaredFields();
+        ArrayList<Field> fieldsList = getAllFields(cl);
 
-        Class superclass = cl.getSuperclass();
-
-        while (superclass != null) {
-            Field[] superFields = superclass.getDeclaredFields();
-
-            fields = Stream.concat(Arrays.stream(fields), Arrays.stream(superFields)).toArray(Field[]::new);
-
-            superclass = superclass.getSuperclass();
-        }
-
-
-        for (int i = 0; i < fields.length; i++) {
-            Field field = fields[i];
+        for (int i = 0; i < fieldsList.size(); i++) {
+            Field field = fieldsList.get(i);
             field.setAccessible(true);
 
             Object fieldObject = field.get(object);
@@ -46,15 +35,7 @@ public class ToStringGenerique {
                 if (field.getType().isPrimitive()) {
                     toString += fieldObject;
                 } else if (field.getType().isArray()) {
-                    int length = Array.getLength(fieldObject);
-                    toString += "{";
-                    for (int j = 0; j < length; j++) {
-                        toString += Array.get(fieldObject, j);
-                        if ((j+1) != length) {
-                            toString += ",";
-                        }
-                    }
-                    toString += "}";
+                    toString = arrayToString(toString, fieldObject);
 
                 } else {
                     toString += toStringGenerique(fieldObject, profondeur - 1);
@@ -65,8 +46,7 @@ public class ToStringGenerique {
             }
 
 
-
-            if ((i + 1) != fields.length) {
+            if ((i + 1) != fieldsList.size()) {
                 toString += ";";
             }
 
@@ -77,12 +57,48 @@ public class ToStringGenerique {
         return toString;
     }
 
+    private String arrayToString(String toString, Object fieldObject) {
+        int length = Array.getLength(fieldObject);
+        toString += "{";
+        for (int j = 0; j < length; j++) {
+            toString += Array.get(fieldObject, j);
+            if ((j+1) != length) {
+                toString += ",";
+            }
+        }
+        toString += "}";
+        return toString;
+    }
+
+    private ArrayList<Field> getAllFields(Class cl) {
+        ArrayList<Field> fieldsList = new ArrayList<>();
+
+        fieldsList.addAll(Arrays.asList(cl.getDeclaredFields()));
+
+        for (Field field : cl.getFields()) {
+            if (!contains(fieldsList, field)) {
+                fieldsList.add(field);
+            }
+        }
+        return fieldsList;
+    }
+
+    private Boolean contains(ArrayList<Field> list, Field field) {
+        for (Field field1 : list) {
+            if (field.getName().equals(field1.getName())) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     public static void main(String[] args) {
         Polygon pol = new Polygon(new int[]{10, 20, 30}, new int[]{20,30, 40}, 3);
         pol.getBounds();
 
         try {
-            System.out.println(new ToStringGenerique().toStringGenerique(pol, 1));
+            System.out.println(new ToStringGenerique().toStringGenerique(pol, 2));
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
